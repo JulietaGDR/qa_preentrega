@@ -17,6 +17,25 @@ Garcia Da Rosa Julieta
 - pytest-html → Generación de reportes en HTML  
 
 ---
+# QA Preentrega
+
+Breve descripción del proyecto...
+
+## Objetivo del proyecto
+
+Este proyecto automatiza pruebas funcionales sobre la página SauceDemo
+utilizando Selenium WebDriver y Pytest.
+
+Se valida:
+- Login de usuario
+- Acceso correcto al sistema
+- Comportamiento esperado de la interfaz
+
+## Tecnologías utilizadas
+
+- Python
+- Selenium
+- Pytest
 
 ## ⚙️ Instalación de Dependencias
 
