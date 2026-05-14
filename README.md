@@ -21,7 +21,7 @@ Garcia Da Rosa Julieta
 ## ⚙️ Instalación de Dependencias
 
 ### 1. Clonar el repositorio
-    git clone https://github.com/ceurrutia/pre-entrega-automation-testing-cecilia-urrutia.git
+    git clone https://github.com/JulietaGDR/qa_preentrega.git
 
 ### 2. Crear entorno virtual (opcional pero recomendado)
     python -m venv env
