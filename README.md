@@ -97,34 +97,23 @@ Abrirlo en un navegador para ver el detalle de ejecución.
 
 ## Estructura del Proyecto
 
-    project/
-
-├── conftest.py
-
-├── requirements.txt
-
-├── README.md
-
-├── .gitignore
-
+   Proyecto-Automatizacion-Python/
 │
-├── tests/\
-
+├── tests/
 │   ├── test_saucedemo.py
-
 │   └── commons/
-
 │       ├── __init__.py
-
 │       └── funciones_commons.py
 │
-├── utils/
-
 ├── data/
-
+├── utils/
 ├── reports/
-
-│   └── report.html
+│
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── conftest.py
+└── .env.example
 
 ---
 
