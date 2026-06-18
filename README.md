@@ -26,7 +26,7 @@ Se busca validar el correcto funcionamiento de distintas funcionalidades mediant
 ## Instalación de Dependencias
 
 ### 1. Clonar el repositorio
-    git clone 
+    git clone https://github.com/JulietaGDR/qa_preentrega.git
 
 ### 2. Crear entorno virtual (opcional pero recomendado)
     python -m venv env
