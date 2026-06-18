@@ -1,11 +1,9 @@
 # Automatización de Pruebas con Python
 ## Propósito del Proyecto
 
-El presente proyecto tiene como objetivo automatizar pruebas funcionales de una aplicación web con el uso herramientas de testing en Python.
+Este proyecto tiene como objetivo automatizar pruebas funcionales de una aplicación web utilizando herramientas de testing en Python.
 
-Se busca validar el funcionamiento de distintas funcionalidades mediante pruebas automatizadas, mejorando la calidad del software y reduciendo el esfuerzo manual.
-
-Garcia Da Rosa Julieta
+Se busca validar el correcto funcionamiento de distintas funcionalidades mediante pruebas automatizadas, mejorando la calidad del software y reduciendo el esfuerzo manual.
 
 ---
 
@@ -17,30 +15,18 @@ Garcia Da Rosa Julieta
 - pytest-html → Generación de reportes en HTML  
 
 ---
-# QA Preentrega
+## Requisitos Previos
 
-Breve descripción del proyecto...
+- Python 3.10 o superior
+- Google Chrome
+- ChromeDriver compatible
+- Git instalado
+- Acceso a Internet
 
-## Objetivo del proyecto
-
-Este proyecto automatiza pruebas funcionales sobre la página SauceDemo
-utilizando Selenium WebDriver y Pytest.
-
-Se valida:
-- Login de usuario
-- Acceso correcto al sistema
-- Comportamiento esperado de la interfaz
-
-## Tecnologías utilizadas
-
-- Python
-- Selenium
-- Pytest
-
-## ⚙️ Instalación de Dependencias
+## Instalación de Dependencias
 
 ### 1. Clonar el repositorio
-    git clone https://github.com/JulietaGDR/qa_preentrega.git
+    git clone 
 
 ### 2. Crear entorno virtual (opcional pero recomendado)
     python -m venv env
@@ -48,7 +34,7 @@ Se valida:
 ### 3. Activar entorno virtual
 
 En Windows:
-    venv\Scripts\activate
+    env\Scripts\activate
 
 En Linux/Mac:
     source venv/bin/activate
@@ -58,21 +44,52 @@ En Linux/Mac:
 
 ---
 
+### Pruebas de API
+
+Se realizan con 'https://reqres.in/api'
+
+El requirements.txt instalará la dependencia
+
+2. Crear un archivo .env en la raíz del proyecto, donde escribirá su APIKEY y datos de Login
+Ejemplo
+
+
+X_API_KEY=su_key
+
+EMAIL_USER=su_usuario@reqres.in
+
+PASSWORD_USER=su_pass
+
+
+3. LLamarlo desde su test usando __from dotenv import load_dotenv__
+
+## Casos de Prueba Automatizados
+
+El proyecto contempla pruebas automatizadas sobre:
+
+- Login exitoso
+- Login inválido
+- Navegación de usuarios
+- Validación de elementos en pantalla
+- Validación de respuestas API
+- Verificación de códigos HTTP
 
 ## Ejecución de Pruebas
 
 Ejecutar las pruebas con:
-    pytest tests/test_saucedemo.py -v
+    pytest -v
 
 ---
 
 ## Generación de Reportes
 
 Generar reporte HTML con:
-    pytest pre-entrega-final/tests/test_saucedemo.py -v --html=reporte.html
+    pytest tests/test_saucedemo.py -v --html=reports/report.html
 
 El archivo generado será:
-    /reports/report.html
+    El reporte generado quedará en:
+
+reports/report.html
 
 Abrirlo en un navegador para ver el detalle de ejecución.
 
@@ -108,3 +125,11 @@ Abrirlo en un navegador para ver el detalle de ejecución.
 ├── reports/
 
 │   └── report.html
+
+---
+
+## Autora
+
+Julieta García Da Rosa
+
+Automatización de pruebas funcionales utilizando Python, Selenium y Pytest.
